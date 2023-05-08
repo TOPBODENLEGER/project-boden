@@ -15,13 +15,19 @@ const Slider = ({ items }) => {
     >
       {items.map((item) => {
         return (
-          <SwiperSlide key={item.sys.id}>
+          <SwiperSlide
+            key={item.sys.id}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <Image
               alt="image"
               width={item.fields.image.fields.file.details.image.width}
               height={item.fields.image.fields.file.details.image.height}
               style={{
-                width: "100%",
+                width: item.fields.image.fields.file.details.image.width,
                 height: "700px",
                 objectFit: "cover",
                 backgroundAttachment: "fixed",

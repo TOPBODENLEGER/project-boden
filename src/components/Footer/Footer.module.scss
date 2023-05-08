@@ -1,0 +1,37 @@
+.wrap {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.link {
+  @apply relative text-white;
+  &::after {
+    content: "";
+    @apply absolute bg-white left-0 -bottom-3 h-0.5 w-0 transition-all duration-300;
+  }
+  &:hover::after {
+    @apply w-full;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    grid-gap: 10px;
+  }
+}
