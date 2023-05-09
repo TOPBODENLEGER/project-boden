@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="contact">
       <div>
         <Image
           src="/images/footer.png"

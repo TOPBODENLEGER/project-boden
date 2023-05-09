@@ -1,10 +1,8 @@
-import Image from "next/image";
-import { Inter, Montserrat } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { createClient } from "contentful";
 import dynamic from "next/dynamic";
 import Slider from "@/components/Slider";
 import Banner from "@/components/Banner/Banner";
-import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { useState } from "react";
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
@@ -39,22 +37,21 @@ export default function Home({ advantage, slider }) {
   const handleMobileMenu = () => {
     setIsMobileMenu(!isMobileMenu);
   };
-  console.log("isMobileMenu", isMobileMenu);
   return (
     <main className={`${montserrat.className}`}>
       {/* <div>
         <Image src="/images/top2.png" width={300} height={300} />
       </div> */}
-      <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
+      <div className="!sticky !top-0 backdrop-blur-sm bg-[#ffffffb5] z-30">
+        <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
+      </div>
       <Banner />
       <Footer />
-      {isMobileMenu ? (
+      {isMobileMenu && (
         <MobileMenu
           isMobileMenu={isMobileMenu}
           handleMobileMenu={() => handleMobileMenu()}
         />
-      ) : (
-        <></>
       )}
 
       {/* <Slider items={slider} /> */}

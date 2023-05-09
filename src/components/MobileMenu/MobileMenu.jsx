@@ -48,7 +48,7 @@ const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/" onClick={handleMobileMenu}>
+                    <Link href="#contact" onClick={handleMobileMenu}>
                       Kontakt
                     </Link>
                   </li>

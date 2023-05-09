@@ -1,0 +1,51 @@
+.wrap {
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  max-width: 1036px;
+  margin-left: 35px;
+}
+.ul {
+  display: flex;
+  margin-bottom: 30px;
+}
+.h1 {
+  margin-bottom: 40px;
+}
+.p {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+.buttons,
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .p {
+    font-size: 20px;
+  }
+  .icons {
+    margin-top: 15px;
+  }
+  .h1 {
+    font-size: 2rem;
+  }
+  .ul {
+    display: block;
+  }
+  .buttons {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .wrap {
+    margin-left: 5px;
+  }
+  .buttonContact {
+    width: 300px;
+  }
+}
