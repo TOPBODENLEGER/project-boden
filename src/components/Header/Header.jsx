@@ -4,7 +4,8 @@ import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Media } from "../../media";
 
-const Header = () => {
+const Header = ({ handleMobileMenu }) => {
+  console.log("handleMobileMenu", handleMobileMenu);
   return (
     <>
       <Media greaterThanOrEqual="lg">
@@ -49,9 +50,12 @@ const Header = () => {
             height={300}
             //   className="mr-10"
           />
-          <div className="p-4 bg-[#0097B2] text-white cursor-pointer mr-3 rounded-lg hover:bg-white hover:text-[#0097B2] duration-200 hover:border-2 hover:border-[#0097B2] border-2 border-[#0097B2]">
+          <button
+            className="p-4 bg-[#0097B2] text-white cursor-pointer mr-3 rounded-lg hover:bg-white hover:text-[#0097B2] duration-200 hover:border-2 hover:border-[#0097B2] border-2 border-[#0097B2]"
+            onClick={handleMobileMenu}
+          >
             <RxHamburgerMenu size={30} />
-          </div>
+          </button>
         </div>
       </Media>
     </>

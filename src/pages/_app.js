@@ -1,10 +1,13 @@
 import "@/styles/globals.css";
+import { ChakraProvider } from "@chakra-ui/react";
 import { MediaContextProvider } from "../media";
 
 export default function App({ Component, pageProps }) {
   return (
     <MediaContextProvider>
-      <Component {...pageProps} />
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
     </MediaContextProvider>
   );
 }

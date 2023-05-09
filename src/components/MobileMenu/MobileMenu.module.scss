@@ -1,0 +1,26 @@
+.menu {
+  //   @apply flex items-center gap-10;
+  font-size: 20px;
+
+  > nav {
+    > ul {
+      display: block;
+      text-align: center;
+      //   @apply flex items-center gap-10;
+      > li {
+        margin-top: 15px;
+        // margin-right: 30px;
+        > a {
+          @apply relative text-[#0097B2];
+          &::after {
+            content: "";
+            @apply absolute bg-[#0097B2] left-0 -bottom-3 h-0.5 w-0 transition-all duration-300;
+          }
+          &:hover::after {
+            @apply w-full;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,21 +1,13 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { mediaStyles } from "../media";
+import { Html, Head, Main, NextScript } from "next/document";
 
-export default class MyDocument extends Document {
-  render() {
-    return (
-      <Html>
-        <Head>
-          <style
-            type="text/css"
-            dangerouslySetInnerHTML={{ __html: mediaStyles }}
-          />
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+export default function Document() {
+  return (
+    <Html lang="en">
+      <Head />
+      <body>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
 }

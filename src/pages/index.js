@@ -6,6 +6,8 @@ import Slider from "@/components/Slider";
 import Banner from "@/components/Banner/Banner";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import { useState } from "react";
+import MobileMenu from "@/components/MobileMenu/MobileMenu";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -33,14 +35,28 @@ export async function getStaticProps() {
 export default function Home({ advantage, slider }) {
   console.log("advantage", advantage);
   console.log("slider", slider);
+  const [isMobileMenu, setIsMobileMenu] = useState(false);
+  const handleMobileMenu = () => {
+    setIsMobileMenu(!isMobileMenu);
+  };
+  console.log("isMobileMenu", isMobileMenu);
   return (
     <main className={`${montserrat.className}`}>
       {/* <div>
         <Image src="/images/top2.png" width={300} height={300} />
       </div> */}
-      <DynamicHeader />
+      <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
       <Banner />
       <Footer />
+      {isMobileMenu ? (
+        <MobileMenu
+          isMobileMenu={isMobileMenu}
+          handleMobileMenu={() => handleMobileMenu()}
+        />
+      ) : (
+        <></>
+      )}
+
       {/* <Slider items={slider} /> */}
     </main>
   );
