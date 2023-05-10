@@ -6,6 +6,7 @@ import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import { useState } from "react";
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
+import Company from "@/components/Company/Company";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -46,6 +47,7 @@ export default function Home({ advantage, slider }) {
         <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
       </div>
       <Banner />
+      <Company />
       <Footer />
       {isMobileMenu && (
         <MobileMenu

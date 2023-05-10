@@ -25,13 +25,13 @@
 
 @media only screen and (max-width: 768px) {
   .p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .icons {
     margin-top: 15px;
   }
   .h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .ul {
     display: block;
@@ -46,6 +46,8 @@
     margin-left: 5px;
   }
   .buttonContact {
-    width: 300px;
+    width: 240px;
+    height: 45px;
+    font-size: 14px;
   }
 }
