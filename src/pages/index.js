@@ -1,7 +1,7 @@
 import { Montserrat } from "next/font/google";
 import { createClient } from "contentful";
 import dynamic from "next/dynamic";
-import Slider from "@/components/Slider";
+import Slider from "@/components/Slider/Slider";
 import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import { useState } from "react";
@@ -56,8 +56,8 @@ export default function Home({ advantage, slider }) {
           handleMobileMenu={() => handleMobileMenu()}
         />
       )}
+      <Slider items={slider} />
       <Footer />
-      {/* <Slider items={slider} /> */}
     </main>
   );
 }
