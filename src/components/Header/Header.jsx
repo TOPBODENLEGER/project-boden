@@ -16,7 +16,8 @@ const Header = ({ handleMobileMenu }) => {
             <Image
               src="/images/top2.png"
               width={150}
-              height={300}
+              height={84}
+              alt="logo"
               //   className="mr-10"
             />
             <nav>
@@ -25,17 +26,17 @@ const Header = ({ handleMobileMenu }) => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/">Services</Link>
+                  <Link href="#services">Services</Link>
                 </li>
                 <li>
-                  <Link href="/">Portfolio</Link>
+                  <Link href="#company">Über uns</Link>
                 </li>
                 <li>
-                  <Link href="/">Über uns</Link>
+                  <Link href="#portfolio">Portfolio</Link>
                 </li>
                 <li>
                   {" "}
-                  <Link href="/">Kontakt</Link>
+                  <Link href="#contact">Kontakt</Link>
                 </li>
               </ul>
             </nav>
@@ -47,7 +48,8 @@ const Header = ({ handleMobileMenu }) => {
           <Image
             src="/images/top2.png"
             width={150}
-            height={300}
+            height={84}
+            alt="logo"
             //   className="mr-10"
           />
           <button

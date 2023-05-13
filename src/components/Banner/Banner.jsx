@@ -11,13 +11,14 @@ const Banner = () => {
       <Image
         src="/images/banner1.png"
         width={3900}
-        height={300}
+        height={625}
         style={{
           width: "100%",
           height: "625px",
           objectFit: "cover",
           backgroundAttachment: "fixed",
         }}
+        alt="banner"
       />
       <div className={`absolute top-0 ${styles.wrap}`}>
         <h1 className={`font-bold leading-[1.1] ${styles.h1}`}>
@@ -30,6 +31,7 @@ const Banner = () => {
               width={30}
               height={30}
               className="mr-2"
+              alt="img"
             />
             <p className={styles.p}>dringend</p>
           </li>
@@ -39,6 +41,7 @@ const Banner = () => {
               width={30}
               height={30}
               className="mr-2"
+              alt="img"
             />
             <p className={styles.p}>schnell</p>
           </li>
@@ -48,6 +51,7 @@ const Banner = () => {
               width={30}
               height={30}
               className="mr-2"
+              alt="img"
             />
             <p className={styles.p}>zuverlässig</p>
           </li>
@@ -56,7 +60,7 @@ const Banner = () => {
           Alle Arbeiten werden profisional ausgeführt!
         </p>
         <div className={styles.buttons}>
-          <Link href="https://www.facebook.com">
+          <Link href="tel:+4915227465638">
             <div
               className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold mr-9 ${styles.buttonContact}`}
             >

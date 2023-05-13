@@ -9,7 +9,7 @@ import styles from "./Slider.module.scss";
 const Slider = ({ items }) => {
   console.log("items", items);
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="portfolio">
       <h2 className="font-bold text-white pt-[25px] text-center pb-7">
         Portfolio
       </h2>

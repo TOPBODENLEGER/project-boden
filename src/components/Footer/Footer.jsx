@@ -21,6 +21,7 @@ const Footer = () => {
             objectFit: "cover",
             backgroundAttachment: "fixed",
           }}
+          alt="footer"
         />
       </div>
 
@@ -33,11 +34,11 @@ const Footer = () => {
             <div>TELEFON:</div>
             <div>
               <Link
-                href="tel:+49177777777778"
+                href="tel:+4915227465638"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 <BsFillTelephoneFill className="mr-3" size={20} />
-                +49 177 777 7777 78
+                +49 1522 746 56 38
               </Link>
             </div>
             <div>MAIL:</div>
@@ -59,12 +60,12 @@ const Footer = () => {
                 <FaFacebookSquare size={30} />
               </Link>
               <Link
-                href="https://www.facebook.com"
+                href="https://wa.me/+4915227465638"
                 className="mr-5 hover:text-[#7acfdf] duration-200"
               >
                 <IoLogoWhatsapp size={30} />
               </Link>
-              <Link href="https://www.facebook.com">
+              <Link href="https://www.instagram.com">
                 <AiFillInstagram
                   size={32}
                   className="hover:text-[#7acfdf] duration-200"
@@ -87,7 +88,7 @@ const Footer = () => {
         </div>
         <div className="md:flex md:justify-around md:items-center text-white block text-center">
           <div className="flex justify-center p-2">
-            <Image src="/images/top_b.png" width={180} height={300} />
+            <Image src="/images/top_b.png" width={180} height={99} alt="logo" />
           </div>
           <div className="m-2">©2023 TOP BODENSERVICE</div>
           <div>

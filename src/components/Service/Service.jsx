@@ -2,7 +2,7 @@ import styles from "./Service.module.scss";
 
 const Service = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="services">
       <div className={styles.screen1}>
         <h2 className="font-bold text-[#0097B2] pt-[25px] text-center">
           Services

@@ -8,6 +8,7 @@ import { useState } from "react";
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
 import Company from "@/components/Company/Company";
 import Service from "@/components/Service/Service";
+import Head from "next/head";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -40,24 +41,34 @@ export default function Home({ advantage, slider }) {
     setIsMobileMenu(!isMobileMenu);
   };
   return (
-    <main className={`${montserrat.className}`}>
-      {/* <div>
+    <>
+      <Head>
+        <title>TOP BODENSERVICE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Verlegung neuer Böden (Parkett, Laminat, Vinyl), Professionelles Abschleifen von Parkett und Dielen Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl oder Hartwachsöl. Renovierung alter Holzböden (abschleifen, ölen, versiegeln), Restaurierung von Holztreppen"
+        />
+      </Head>
+      <main className={`${montserrat.className}`}>
+        {/* <div>
         <Image src="/images/top2.png" width={300} height={300} />
       </div> */}
-      <div className="!sticky !top-0 backdrop-blur-sm bg-[#ffffffb5] z-30">
-        <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
-      </div>
-      <Banner />
-      <Service />
-      <Company />
-      {isMobileMenu && (
-        <MobileMenu
-          isMobileMenu={isMobileMenu}
-          handleMobileMenu={() => handleMobileMenu()}
-        />
-      )}
-      <Slider items={slider} />
-      <Footer />
-    </main>
+        <div className="!sticky !top-0 backdrop-blur-sm bg-[#ffffffb5] z-30">
+          <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
+        </div>
+        <Banner />
+        <Service />
+        <Company />
+        {isMobileMenu && (
+          <MobileMenu
+            isMobileMenu={isMobileMenu}
+            handleMobileMenu={() => handleMobileMenu()}
+          />
+        )}
+        <Slider items={slider} />
+        <Footer />
+      </main>
+    </>
   );
 }

@@ -3,7 +3,7 @@ import styles from "./Company.module.scss";
 
 const Company = () => {
   return (
-    <div>
+    <div id="company" className={styles.container}>
       <div className={styles.wrap}>
         <div className={`w-[50%] ${styles.block}`}></div>
         <div className="w-[50%] flex justify-center text-center">
@@ -28,7 +28,12 @@ const Company = () => {
           </div>
         </div>
         <div className={`absolute w-[1000px] h-[900px] ${styles.foto}`}>
-          <Image src="/images/company.png" width={1000} height={500} />
+          <Image
+            src="/images/company.png"
+            width={1000}
+            height={466}
+            alt="company"
+          />
         </div>
         <div
           className={`absolute w-[900px] h-[300px]  ${styles.fotoShadow}`}
@@ -62,8 +67,8 @@ const Company = () => {
               <Image
                 src="/images/company.png"
                 width={500}
-                height={500}
-                // fill={true}
+                height={466}
+                alt="company"
               />
             </div>
           </div>
