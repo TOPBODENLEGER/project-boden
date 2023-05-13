@@ -7,6 +7,7 @@ import Footer from "@/components/Footer/Footer";
 import { useState } from "react";
 import MobileMenu from "@/components/MobileMenu/MobileMenu";
 import Company from "@/components/Company/Company";
+import Service from "@/components/Service/Service";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -47,15 +48,15 @@ export default function Home({ advantage, slider }) {
         <DynamicHeader handleMobileMenu={() => handleMobileMenu()} />
       </div>
       <Banner />
+      <Service />
       <Company />
-      <Footer />
       {isMobileMenu && (
         <MobileMenu
           isMobileMenu={isMobileMenu}
           handleMobileMenu={() => handleMobileMenu()}
         />
       )}
-
+      <Footer />
       {/* <Slider items={slider} /> */}
     </main>
   );
