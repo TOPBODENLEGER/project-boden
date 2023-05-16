@@ -120,7 +120,7 @@ const Service = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.2, once: true }}
+        viewport={{ amount: 0.1, once: true }}
         className={styles.screen2}
       >
         <motion.h2
@@ -244,7 +244,7 @@ const Service = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.2, once: true }}
+        viewport={{ amount: 0.1, once: true }}
         className={styles.mobileScreen}
       >
         <motion.h2
@@ -257,7 +257,7 @@ const Service = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ amount: 0.2, once: true }}
+          viewport={{ amount: 0.1, once: true }}
         >
           <motion.div
             variants={textAnimation}
@@ -402,7 +402,7 @@ const Service = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ amount: 0.2, once: true }}
+        viewport={{ amount: 0.1, once: true }}
         className={styles.mobileScreen2}
       >
         <motion.h2
@@ -415,7 +415,7 @@ const Service = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ amount: 0.2, once: true }}
+          viewport={{ amount: 0.1, once: true }}
         >
           <motion.div
             variants={textAnimation}
