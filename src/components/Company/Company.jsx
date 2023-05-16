@@ -2,15 +2,15 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./Company.module.scss";
 
-const textAnimationH = {
+const textAnimationOpacity = {
   hidden: {
-    x: -100,
+    // x: -100,
     opacity: 0,
   },
   visible: (custom) => ({
-    x: 0,
+    // x: 0,
     opacity: 1,
-    transition: { delay: custom * 0.1 },
+    transition: { delay: custom * 0.5 },
   }),
 };
 
@@ -68,8 +68,9 @@ const Company = () => {
             </motion.p>
           </div>
         </div>
-        <div
-          variants={textAnimationH}
+        <motion.div
+          custom={2}
+          variants={textAnimationOpacity}
           className={`absolute w-[1000px] h-[900px] ${styles.foto}`}
         >
           <Image
@@ -78,16 +79,28 @@ const Company = () => {
             height={466}
             alt="company"
           />
-        </div>
-        <div
+        </motion.div>
+        <motion.div
+          custom={3}
+          variants={textAnimationOpacity}
           className={`absolute w-[900px] h-[300px]  ${styles.fotoShadow}`}
-        ></div>
+        ></motion.div>
       </div>
       <div className={styles.wrap2}>
         <div className="w-[100%] flex justify-center text-center">
           <div>
-            <h2 className="font-bold text-[#0097B2] pt-[25px]">Über uns</h2>
-            <p className=" w-[100%] pt-5 text-start px-7 pb-3">
+            <motion.h2
+              variants={textAnimationV}
+              custom={1}
+              className="font-bold text-[#0097B2] pt-[25px]"
+            >
+              Über uns
+            </motion.h2>
+            <motion.p
+              variants={textAnimationV}
+              custom={2}
+              className=" w-[100%] pt-5 text-start px-7 pb-3"
+            >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in
               deleniti recusandae facilis explicabo rem illum, modi, eos, saepe
               repellat natus laborum! Maxime praesentium est animi accusamus ex
@@ -102,22 +115,35 @@ const Company = () => {
               deleniti recusandae facilis explicabo rem illum, modi, eos, saepe
               repellat natus laborum! Maxime praesentium est animi accusamus ex
               eaque error.
-            </p>
+            </motion.p>
           </div>
         </div>
-        <div className={`relative ${styles.block2}`}>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ amount: 0.2, once: true }}
+          className={`relative ${styles.block2}`}
+        >
           <div className="w-[100%] flex justify-center">
-            <div className={`absolute  ${styles.foto2}`}>
+            <motion.div
+              variants={textAnimationOpacity}
+              custom={2}
+              className={`absolute  ${styles.foto2}`}
+            >
               <Image
                 src="/images/company.png"
                 width={500}
                 height={466}
                 alt="company"
               />
-            </div>
+            </motion.div>
           </div>
-          <div className={`absolute  ${styles.fotoShadow2}`}></div>
-        </div>
+          <motion.div
+            variants={textAnimationOpacity}
+            custom={3}
+            className={`absolute  ${styles.fotoShadow2}`}
+          ></motion.div>
+        </motion.div>
       </div>
     </motion.div>
     // <div className="relative">
