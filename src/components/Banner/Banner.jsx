@@ -3,11 +3,29 @@ import Link from "next/link";
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
+import { motion } from "framer-motion";
 import styles from "./Banner.module.scss";
+
+const textAnimation = {
+  hidden: {
+    x: -100,
+    opacity: 0,
+  },
+  visible: (custom) => ({
+    x: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2 },
+  }),
+};
 
 const Banner = () => {
   return (
-    <div className="relative">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      className="relative"
+      viewport={{ once: true }}
+    >
       <Image
         src="/images/banner1.png"
         width={3900}
@@ -21,11 +39,19 @@ const Banner = () => {
         alt="banner"
       />
       <div className={`absolute top-0 ${styles.wrap}`}>
-        <h1 className={`font-bold leading-[1.1] ${styles.h1}`}>
+        <motion.h1
+          custom={1}
+          variants={textAnimation}
+          className={`font-bold leading-[1.1] ${styles.h1}`}
+        >
           Boden Service bietet rundum Service im Bereich Bodenverlegung an.
-        </h1>
+        </motion.h1>
         <ul className={styles.ul}>
-          <li className="flex items-center mr-3">
+          <motion.li
+            custom={2}
+            variants={textAnimation}
+            className="flex items-center mr-3"
+          >
             <Image
               src="/images/punkte.png"
               width={30}
@@ -34,8 +60,12 @@ const Banner = () => {
               alt="img"
             />
             <p className={styles.p}>dringend</p>
-          </li>
-          <li className="flex items-center mr-3">
+          </motion.li>
+          <motion.li
+            custom={3}
+            variants={textAnimation}
+            className="flex items-center mr-3"
+          >
             <Image
               src="/images/punkte.png"
               width={30}
@@ -44,8 +74,12 @@ const Banner = () => {
               alt="img"
             />
             <p className={styles.p}>schnell</p>
-          </li>
-          <li className="flex items-center mr-3">
+          </motion.li>
+          <motion.li
+            custom={4}
+            variants={textAnimation}
+            className="flex items-center mr-3"
+          >
             <Image
               src="/images/punkte.png"
               width={30}
@@ -54,12 +88,20 @@ const Banner = () => {
               alt="img"
             />
             <p className={styles.p}>zuverlässig</p>
-          </li>
+          </motion.li>
         </ul>
-        <p className={`mb-[30px] ${styles.p}`}>
+        <motion.p
+          custom={5}
+          variants={textAnimation}
+          className={`mb-[30px] ${styles.p}`}
+        >
           Alle Arbeiten werden profisional ausgeführt!
-        </p>
-        <div className={styles.buttons}>
+        </motion.p>
+        <motion.div
+          custom={6}
+          variants={textAnimation}
+          className={styles.buttons}
+        >
           <Link href="tel:+4915227465638">
             <div
               className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold mr-9 ${styles.buttonContact}`}
@@ -87,9 +129,9 @@ const Banner = () => {
               />
             </Link>
           </div>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default Banner;
