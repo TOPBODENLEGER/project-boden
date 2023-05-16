@@ -7,11 +7,8 @@ const Service = () => {
         <h2 className="font-bold text-[#0097B2] pt-[25px] text-center">
           Services
         </h2>
+
         <div className="flex justify-center h-[300px] mt-10">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagon}>
             <div className={styles.item}>
               Verlegung neuer Böden (Parkett, Laminat, Vinyl)
@@ -34,10 +31,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[300px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagon}>
             <div className={styles.item}>
               Aufmaß und Planung direkt vor Ort.
@@ -55,29 +48,25 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[300px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
+          <div className={styles.hexagon}>
+            <div className={styles.item}>Aufbereitung vom Unterboden</div>
+          </div>
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Verlegung neuer Böden (Parkett, Laminat, Vinyl)
+              Verlegung von Laminat, Klickvinyl, Designbeläge und Fertigparkett
+              (Teppich und PVC auf Anfrage).
             </div>
           </div>
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
-              Hartwachsöl.
+              Montage von Fußleisten mit Kleber/Nägeln
             </div>
           </div>
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
+              Sonstige Nebenarbeiten wie Türen kürzen, Silikonfugen ziehen
+              usw...
             </div>
-          </div>
-          <div className={styles.hexagon}>
-            <div className={styles.item}>Restaurierung von Holztreppen</div>
           </div>
         </div>
       </div>
@@ -87,10 +76,6 @@ const Service = () => {
           Services
         </h2>
         <div className="flex justify-center h-[300px] mt-10">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagon}>
             <div className={styles.item}>
               Verlegung neuer Böden (Parkett, Laminat, Vinyl)
@@ -110,10 +95,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[300px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagon}>
             <div className={styles.item}>Restaurierung von Holztreppen</div>
           </div>
@@ -124,10 +105,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[300px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagon}>
             <div className={styles.item}>
               Anliefern von Ware bequem bis in die Wohnung herein
@@ -139,28 +116,28 @@ const Service = () => {
             </div>
           </div>
           <div className={styles.hexagon}>
+            <div className={styles.item}>Aufbereitung vom Unterboden</div>
+          </div>
+        </div>
+        <div className="flex justify-center h-[300px] mt-[-68px]">
+          <div className={styles.hexagon}>
             <div className={styles.item}>
-              Verlegung neuer Böden (Parkett, Laminat, Vinyl)
+              Verlegung von Laminat, Klickvinyl, Designbeläge und Fertigparkett
+              (Teppich und PVC auf Anfrage).
+            </div>
+          </div>
+          <div className={styles.hexagon}>
+            <div className={styles.item}>
+              Montage von Fußleisten mit Kleber/Nägeln
             </div>
           </div>
         </div>
         <div className="flex justify-center h-[300px] mt-[-68px]">
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
-              Hartwachsöl.
+              Sonstige Nebenarbeiten wie Türen kürzen, Silikonfugen ziehen
+              usw...
             </div>
-          </div>
-          <div className={styles.hexagon}>
-            <div className={styles.item}>
-              Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center h-[300px] mt-[-68px]">
-          <div className={styles.hexagon}>
-            <div className={styles.item}>Restaurierung von Holztreppen</div>
           </div>
         </div>
       </div>
@@ -170,10 +147,6 @@ const Service = () => {
           Services
         </h2>
         <div className="flex justify-center h-[267px] mt-10">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
               Verlegung neuer Böden (Parkett, Laminat, Vinyl)
@@ -188,10 +161,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[267px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
               Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
@@ -199,10 +168,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[267px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
               Restaurierung von Holztreppen
@@ -228,29 +193,27 @@ const Service = () => {
             </div>
           </div>
           <div className={styles.hexagonMobile}>
+            <div className={styles.itemMobile}>Aufbereitung vom Unterboden</div>
+          </div>
+        </div>
+        <div className="flex justify-center h-[267px] mt-[-68px]">
+          <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
-              Verlegung neuer Böden (Parkett, Laminat, Vinyl)
+              Verlegung von Laminat, Klickvinyl, Designbeläge und Fertigparkett
+              (Teppich und PVC auf Anfrage).
             </div>
           </div>
         </div>
         <div className="flex justify-center h-[267px] mt-[-68px]">
           <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
-              Hartwachsöl.
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-center h-[267px] mt-[-68px]">
-          <div className={styles.hexagonMobile}>
-            <div className={styles.itemMobile}>
-              Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
+              Montage von Fußleisten mit Kleber/Nägeln
             </div>
           </div>
           <div className={styles.hexagonMobile}>
             <div className={styles.itemMobile}>
-              Restaurierung von Holztreppen
+              Sonstige Nebenarbeiten wie Türen kürzen, Silikonfugen ziehen
+              usw...
             </div>
           </div>
         </div>
@@ -261,10 +224,6 @@ const Service = () => {
           Services
         </h2>
         <div className="flex justify-center h-[200px] mt-10">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
               Verlegung neuer Böden (Parkett, Laminat, Vinyl)
@@ -279,10 +238,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[200px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
               Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
@@ -290,10 +245,6 @@ const Service = () => {
           </div>
         </div>
         <div className="flex justify-center h-[200px] mt-[-68px]">
-          {/* <div className={styles.octagonWrap}>
-        <div className={styles.octagon}></div>
-        <p className={styles.title}>ERROR</p>
-      </div> */}
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
               Restaurierung von Holztreppen
@@ -320,28 +271,28 @@ const Service = () => {
           </div>
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
-              Verlegung neuer Böden (Parkett, Laminat, Vinyl)
+              Aufbereitung vom Unterboden
             </div>
           </div>
         </div>
         <div className="flex justify-center h-[200px] mt-[-68px]">
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
-              Hartwachsöl.
+              Verlegung von Laminat, Klickvinyl, Designbeläge und Fertigparkett
+              (Teppich und PVC auf Anfrage).
             </div>
           </div>
         </div>
         <div className="flex justify-center h-[200px] mt-[-68px]">
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
-              Renovierung alter Holzböden (abschleifen, ölen, versiegeln)
+              Montage von Fußleisten mit Kleber/Nägeln
             </div>
           </div>
           <div className={styles.hexagonMobile2}>
             <div className={styles.itemMobile2}>
-              Restaurierung von Holztreppen
+              Sonstige Nebenarbeiten wie Türen kürzen, Silikonfugen ziehen
+              usw...
             </div>
           </div>
         </div>

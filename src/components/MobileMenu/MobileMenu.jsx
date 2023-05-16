@@ -16,7 +16,9 @@ const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerHeader borderBottomWidth="1px" className="mx-auto my-0">
-            <Image src="/images/top2.png" width={90} height={51} alt="logo" />
+            <Link href="/">
+              <Image src="/images/top2.png" width={90} height={51} alt="logo" />
+            </Link>
           </DrawerHeader>
           <DrawerBody>
             <div className={` ${styles.menu} `}>
@@ -28,22 +30,22 @@ const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#services" onClick={handleMobileMenu}>
+                    <Link href="/#services" onClick={handleMobileMenu}>
                       Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="#company" onClick={handleMobileMenu}>
+                    <Link href="/#company" onClick={handleMobileMenu}>
                       Über uns
                     </Link>
                   </li>
                   <li>
-                    <Link href="#portfolio" onClick={handleMobileMenu}>
+                    <Link href="/#portfolio" onClick={handleMobileMenu}>
                       Portfolio
                     </Link>
                   </li>
                   <li>
-                    <Link href="#contact" onClick={handleMobileMenu}>
+                    <Link href="/#contact" onClick={handleMobileMenu}>
                       Kontakt
                     </Link>
                   </li>

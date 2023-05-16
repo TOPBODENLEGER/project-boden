@@ -92,7 +92,7 @@ const Footer = () => {
           </div>
           <div className="m-2">©2023 TOP BODENSERVICE</div>
           <div>
-            <Link href="" className={`m-2 ${styles.link}`}>
+            <Link href="/impressum" className={`m-2 ${styles.link}`}>
               Impressum
             </Link>
           </div>
