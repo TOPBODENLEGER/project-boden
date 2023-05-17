@@ -48,7 +48,7 @@ const Banner = () => {
         </motion.h1>
         <ul className={styles.ul}>
           <motion.li
-            custom={2}
+            custom={1.5}
             variants={textAnimation}
             className="flex items-center mr-3"
           >
@@ -62,7 +62,7 @@ const Banner = () => {
             <p className={styles.p}>dringend</p>
           </motion.li>
           <motion.li
-            custom={3}
+            custom={2}
             variants={textAnimation}
             className="flex items-center mr-3"
           >
@@ -76,7 +76,7 @@ const Banner = () => {
             <p className={styles.p}>schnell</p>
           </motion.li>
           <motion.li
-            custom={4}
+            custom={2.5}
             variants={textAnimation}
             className="flex items-center mr-3"
           >
@@ -91,20 +91,20 @@ const Banner = () => {
           </motion.li>
         </ul>
         <motion.p
-          custom={5}
+          custom={3}
           variants={textAnimation}
           className={`mb-[30px] ${styles.p}`}
         >
           Alle Arbeiten werden profisional ausgeführt!
         </motion.p>
         <motion.div
-          custom={6}
+          custom={3.5}
           variants={textAnimation}
           className={styles.buttons}
         >
           <Link href="tel:+4915227465638">
             <div
-              className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold mr-9 ${styles.buttonContact}`}
+              className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold ${styles.buttonContact}`}
             >
               CONTACT UNS
             </div>

@@ -24,7 +24,7 @@ const Service = () => {
       >
         <motion.h2
           variants={textAnimation}
-          custom={5}
+          custom={1}
           className="font-bold text-[#0097B2] pt-[25px] text-center"
         >
           Services
@@ -32,7 +32,7 @@ const Service = () => {
 
         <motion.div
           variants={textAnimation}
-          custom={6}
+          custom={1.2}
           className="flex justify-center h-[300px] mt-10"
         >
           <div className={styles.hexagon}>
@@ -63,7 +63,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={7}
+            custom={1.4}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -90,7 +90,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={8}
+            custom={1.6}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -125,14 +125,14 @@ const Service = () => {
       >
         <motion.h2
           variants={textAnimation}
-          custom={5}
+          custom={1}
           className="font-bold text-[#0097B2] pt-[25px] text-center"
         >
           Services
         </motion.h2>
         <motion.div
           variants={textAnimation}
-          custom={6}
+          custom={1.2}
           className="flex justify-center h-[300px] mt-10"
         >
           <div className={styles.hexagon}>
@@ -160,7 +160,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={7}
+            custom={1.4}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -180,7 +180,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={8}
+            custom={1.6}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -205,7 +205,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={9}
+            custom={1.8}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -228,7 +228,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={10}
+            custom={2}
             className="flex justify-center h-[300px] mt-[-68px]"
           >
             <div className={styles.hexagon}>
@@ -249,7 +249,7 @@ const Service = () => {
       >
         <motion.h2
           variants={textAnimation}
-          custom={5}
+          custom={1}
           className="font-bold text-[#0097B2] pt-[25px] text-center"
         >
           Services
@@ -261,7 +261,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={6}
+            custom={1.2}
             className="flex justify-center h-[267px] mt-10"
           >
             <div className={styles.hexagonMobile}>
@@ -285,7 +285,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={7}
+            custom={1.4}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -302,7 +302,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={8}
+            custom={1.6}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -324,7 +324,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={9}
+            custom={1.8}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -341,7 +341,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={10}
+            custom={2}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -363,7 +363,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={11}
+            custom={2.2}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -381,7 +381,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={12}
+            custom={2.4}
             className="flex justify-center h-[267px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile}>
@@ -407,7 +407,7 @@ const Service = () => {
       >
         <motion.h2
           variants={textAnimation}
-          custom={5}
+          custom={1}
           className="font-bold text-[#0097B2] pt-[25px] text-center"
         >
           Services
@@ -419,7 +419,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={6}
+            custom={1.2}
             className="flex justify-center h-[200px] mt-10"
           >
             <div className={styles.hexagonMobile2}>
@@ -443,7 +443,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={7}
+            custom={1.4}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>
@@ -460,7 +460,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={8}
+            custom={1.6}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>
@@ -482,7 +482,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={9}
+            custom={1.8}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>
@@ -499,7 +499,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={10}
+            custom={2}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>
@@ -521,7 +521,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={11}
+            custom={2.2}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>
@@ -539,7 +539,7 @@ const Service = () => {
         >
           <motion.div
             variants={textAnimation}
-            custom={12}
+            custom={2.4}
             className="flex justify-center h-[200px] mt-[-68px]"
           >
             <div className={styles.hexagonMobile2}>

@@ -10,7 +10,7 @@ const textAnimationOpacity = {
   visible: (custom) => ({
     // x: 0,
     opacity: 1,
-    transition: { delay: custom * 0.5 },
+    transition: { delay: custom * 0.3 },
   }),
 };
 
@@ -31,7 +31,7 @@ const Company = () => {
     <motion.div
       initial="hidden"
       whileInView="visible"
-      viewport={{ amount: 0.2, once: true }}
+      viewport={{ amount: 0.1, once: true }}
       id="company"
       className={styles.container}
     >
@@ -48,7 +48,7 @@ const Company = () => {
             </motion.h2>
             <motion.p
               variants={textAnimationV}
-              custom={2}
+              custom={1.2}
               className=" w-[100%] pl-[30%] pt-5 text-start"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in
@@ -69,7 +69,7 @@ const Company = () => {
           </div>
         </div>
         <motion.div
-          custom={2}
+          custom={1.4}
           variants={textAnimationOpacity}
           className={`absolute w-[1000px] h-[900px] ${styles.foto}`}
         >
@@ -81,7 +81,7 @@ const Company = () => {
           />
         </motion.div>
         <motion.div
-          custom={3}
+          custom={1.6}
           variants={textAnimationOpacity}
           className={`absolute w-[900px] h-[300px]  ${styles.fotoShadow}`}
         ></motion.div>
@@ -98,7 +98,7 @@ const Company = () => {
             </motion.h2>
             <motion.p
               variants={textAnimationV}
-              custom={2}
+              custom={1.2}
               className=" w-[100%] pt-5 text-start px-7 pb-3"
             >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in
@@ -121,13 +121,13 @@ const Company = () => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ amount: 0.2, once: true }}
+          viewport={{ amount: 0.1, once: true }}
           className={`relative ${styles.block2}`}
         >
           <div className="w-[100%] flex justify-center">
             <motion.div
               variants={textAnimationOpacity}
-              custom={2}
+              custom={1.4}
               className={`absolute  ${styles.foto2}`}
             >
               <Image
@@ -140,7 +140,7 @@ const Company = () => {
           </div>
           <motion.div
             variants={textAnimationOpacity}
-            custom={3}
+            custom={1.6}
             className={`absolute  ${styles.fotoShadow2}`}
           ></motion.div>
         </motion.div>
