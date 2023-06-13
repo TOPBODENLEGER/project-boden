@@ -12,19 +12,18 @@ const DynamicHeader = dynamic(() => import("@/components/Header/Header"), {
 });
 
 export default function Layout({ children, title, description }) {
-  const isCartOpen = useSelector((state) => state.cart.isCartOpen);
-  //   const isCartOpen = useSelector((state) => state.cart.isCartOpen);
-  const { setIsCartOpen } = useActions();
+  const isMenuOpen = useSelector((state) => state.menu.isMenuOpen);
+  const { setIsMenuOpen } = useActions();
   return (
     <Meta title={title} description={description}>
       <main className={`${montserrat.className}`}>
         <div className="!sticky !top-0 backdrop-blur-sm bg-[#ffffffb5] z-30">
-          <DynamicHeader handleMobileMenu={() => setIsCartOpen()} />
+          <DynamicHeader handleMobileMenu={() => setIsMenuOpen()} />
         </div>
-        {isCartOpen && (
+        {isMenuOpen && (
           <MobileMenu
-            isMobileMenu={isCartOpen}
-            handleMobileMenu={() => setIsCartOpen()}
+            isMobileMenu={isMenuOpen}
+            handleMobileMenu={() => setIsMenuOpen()}
           />
         )}
         {children}

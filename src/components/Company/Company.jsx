@@ -4,11 +4,9 @@ import styles from "./Company.module.scss";
 
 const textAnimationOpacity = {
   hidden: {
-    // x: -100,
     opacity: 0,
   },
   visible: (custom) => ({
-    // x: 0,
     opacity: 1,
     transition: { delay: custom * 0.3 },
   }),
@@ -146,10 +144,6 @@ const Company = () => {
         </motion.div>
       </div>
     </motion.div>
-    // <div className="relative">
-    //   <div className="w-[50%] h-[500px] bg-[#81AFC3]"></div>
-    //   <div className="">sdfsdf</div>
-    // </div>
   );
 };
 export default Company;

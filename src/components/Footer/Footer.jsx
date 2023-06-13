@@ -119,18 +119,6 @@ const Footer = () => {
                 />
               </Link>
             </motion.div>
-            {/* <div className="flex">
-              <p>TELEFON:</p>
-              <p>+49 177 777 7777 78</p>
-            </div>
-            <div className="flex">
-              <p>MAIL:</p>
-              <p>TOP-BODENSERVICE@GMAIL.COM</p>
-            </div>
-            <div className="flex">
-              <p>FOLGEN UNS:</p>
-              <div></div>
-            </div> */}
           </div>
         </div>
         <div className="md:flex md:justify-around md:items-center text-white block text-center">
@@ -151,6 +139,10 @@ const Footer = () => {
           <motion.div variants={textAnimationOpacity} custom={5}>
             <Link href="/impressum" className={`m-2 ${styles.link}`}>
               Impressum
+            </Link>
+            |
+            <Link href="/datenschutz" className={`m-2 ${styles.link}`}>
+              Datenschutz
             </Link>
           </motion.div>
         </div>

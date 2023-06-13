@@ -1,7 +1,7 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import statsCart from "./statsCart";
+import statsMenu from "./statsMenu";
 const rootReducers = combineReducers({
-  cart: statsCart,
+  menu: statsMenu,
 });
 
 const store = configureStore({

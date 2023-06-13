@@ -32,7 +32,6 @@ const textAnimationV = {
 };
 
 const Slider = ({ items }) => {
-  console.log("items", items);
   return (
     <motion.div
       initial="hidden"
