@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import styles from "./Footer.module.scss";
@@ -39,13 +39,13 @@ const Footer = () => {
           <div className={styles.grid}>
             <div>TELEFON:</div>
             <div>
-              <Link
+              <a
                 href="tel:+4915227465638"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 <BsFillTelephoneFill className="mr-3" size={20} />
                 +49 1522 746 56 38
-              </Link>
+              </a>
             </div>
             <div>MAIL:</div>
             <div>
@@ -60,10 +60,10 @@ const Footer = () => {
             <div custom={4}>FOLGEN UNS:</div>
             <div custom={4} className="flex">
               <Link
-                href="https://www.facebook.com"
+                href="https://t.me/+4915227465638"
                 className="mr-6 hover:text-[#7acfdf] duration-200"
               >
-                <FaFacebookSquare size={30} />
+                <FaTelegram size={30} />
               </Link>
               <Link
                 href="https://wa.me/+4915227465638"
@@ -71,12 +71,12 @@ const Footer = () => {
               >
                 <IoLogoWhatsapp size={30} />
               </Link>
-              <Link href="https://www.instagram.com">
+              {/* <Link href="https://www.instagram.com">
                 <AiFillInstagram
                   size={32}
                   className="hover:text-[#7acfdf] duration-200"
                 />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

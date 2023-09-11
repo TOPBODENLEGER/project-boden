@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaTelegram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
 import { motion } from "framer-motion";
@@ -102,32 +102,32 @@ const Banner = () => {
           variants={textAnimation}
           className={styles.buttons}
         >
-          <Link href="tel:+4915227465638">
+          <a href="tel:+4915227465638">
             <div
               className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold ${styles.buttonContact}`}
             >
               CONTACT UNS
             </div>
-          </Link>
+          </a>
           <div className={styles.icons}>
             <Link
-              href="https://www.facebook.com"
+              href="https://t.me/+4915227465638"
               className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
             >
-              <FaFacebookSquare size={42} />
+              <FaTelegram size={42} />
             </Link>
             <Link
-              href="https://www.facebook.com"
+              href="https://wa.me/+4915227465638"
               className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
             >
               <IoLogoWhatsapp size={43} />
             </Link>
-            <Link href="https://www.facebook.com">
+            {/* <Link href="https://www.facebook.com">
               <AiFillInstagram
                 size={45}
                 className="hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
-            </Link>
+            </Link> */}
           </div>
         </motion.div>
       </div>
