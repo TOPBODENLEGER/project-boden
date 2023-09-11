@@ -76,7 +76,7 @@ const Company = () => {
               der Versiegelungsart. Vereinbart wird ein Festpreis.
               <br />
               Kostenlose Besichtigung möglich, meist reichen auch Bilder per
-              WhatsApp .
+              WhatsApp.
             </motion.p>
           </div>
         </div>
@@ -113,20 +113,34 @@ const Company = () => {
               custom={1.2}
               className=" w-[100%] pt-5 text-start px-7 pb-3"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga in
-              deleniti recusandae facilis explicabo rem illum, modi, eos, saepe
-              repellat natus laborum! Maxime praesentium est animi accusamus ex
-              eaque error. Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Fuga in deleniti recusandae facilis explicabo rem illum,
-              modi, eos, saepe repellat natus laborum! Maxime praesentium est
-              animi accusamus ex eaque error. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Fuga in deleniti recusandae facilis
-              explicabo rem illum, modi, eos, saepe repellat natus laborum!
-              Maxime praesentium est animi accusamus ex eaque error. Lorem,
-              ipsum dolor sit amet consectetur adipisicing elit. Fuga in
-              deleniti recusandae facilis explicabo rem illum, modi, eos, saepe
-              repellat natus laborum! Maxime praesentium est animi accusamus ex
-              eaque error.
+              TOP BODENSERVICE bietet rundum Service im Bereich Bodenverlegung
+              an. Alle Arbeiten werden profisional ausgeführt! <br />
+              <br />
+              Diese Beinhaltet folgende Dienstleistungen:
+              <br />- Verlegung neuer Böden (Parkett, Laminat, Vinyl)
+              <br />- Professionelles Abschleifen von Parkett und Dielen
+              Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl
+              oder Hartwachsöl.
+              <br />- Renovierung alter Holzböden (abschleifen, ölen,
+              versiegeln)
+              <br />- Restaurierung von Holztreppen • Aufmaß und Planung direkt
+              vor Ort.
+              <br />
+              <br />• Anliefern von Ware bequem bis in die Wohnung herein
+              <br />• Fachgerechte Entfernung mit Umweltgerechter Entsorgung.
+              <br />• Aufbereitung vom Unterboden • Verlegung von Laminat,
+              Klickvinyl, Designbeläge und Fertigparkett (Teppich und PVC auf
+              Anfrage).
+              <br />• Montage von Fußleisten mit Kleber/Nägeln
+              <br />• Sonstige Nebenarbeiten wie Türen kürzen, Silikonfugen
+              ziehen usw...
+              <br />
+              <br />
+              Der Preis richtet sich nach der Größe der Fläche, dem Zustand und
+              der Versiegelungsart. Vereinbart wird ein Festpreis.
+              <br />
+              Kostenlose Besichtigung möglich, meist reichen auch Bilder per
+              WhatsApp.
             </motion.p>
           </div>
         </div>
