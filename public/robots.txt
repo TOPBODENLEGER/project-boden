@@ -1,0 +1,5 @@
+# URL:http://www.topbodenservice.de
+
+# Alle Roboter spidern die Domain
+User-agent: *
+Disallow:
