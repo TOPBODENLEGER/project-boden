@@ -23,22 +23,8 @@
    <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://topbodenservice.de/index.html</loc>
+  <loc>https://topbodenservice.de/index</loc>
   <lastmod>2023-05-15T14:23:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-   <loc>https://topbodenservice.de/impressum.html</loc>
-   <lastmod>2023-05-15T14:23:09+00:00</lastmod>
-   <priority>0.80</priority>
-</url>
-<url>
-   <loc>https://topbodenservice.de/datenschutz.html</loc>
-   <lastmod>2023-05-15T14:23:09+00:00</lastmod>
-   <priority>0.80</priority>
-</url>
-
-
-
-
 </urlset>

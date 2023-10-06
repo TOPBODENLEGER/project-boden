@@ -27,15 +27,11 @@ const Meta = ({ title, description, children }) => {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        {description ? (
+        {description && (
           <>
             <meta name="description" content={description} />
             <meta name="og:title" content={getTitle(title)} />
             <meta name="og:description" content={description} />
-          </>
-        ) : (
-          <>
-            <meta name="robots" content="noindex, nofollow" />
           </>
         )}
       </Head>
