@@ -29,6 +29,7 @@ const Meta = ({ title, description, children }) => {
         <link rel="manifest" href="/site.webmanifest" />
         {description && (
           <>
+            <meta name="robots" content="index, follow" />
             <meta name="description" content={description} />
             <meta name="og:title" content={getTitle(title)} />
             <meta name="og:description" content={description} />
