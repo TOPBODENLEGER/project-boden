@@ -4,6 +4,7 @@ import { GrMail } from "react-icons/gr";
 import { FaTelegram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
+import { FaTiktok, FaYoutube } from "react-icons/fa";
 import styles from "./Footer.module.scss";
 import Link from "next/link";
 
@@ -80,6 +81,18 @@ const Footer = () => {
               <Link href="https://www.instagram.com/topbodenservice/">
                 <AiFillInstagram
                   size={32}
+                  className="mr-5 hover:text-[#7acfdf] duration-200"
+                />
+              </Link>
+              <Link href="https://www.tiktok.com/@topbodenservice">
+                <FaTiktok
+                  size={28}
+                  className="mr-5 hover:text-[#7acfdf] duration-200"
+                />
+              </Link>
+              <Link href="https://www.youtube.com/@topbodenservice">
+                <FaYoutube
+                  size={30}
                   className="hover:text-[#7acfdf] duration-200"
                 />
               </Link>

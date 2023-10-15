@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaFacebookSquare, FaTelegram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillInstagram } from "react-icons/ai";
+import { FaTiktok, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
 import styles from "./Banner.module.scss";
 
@@ -124,6 +125,18 @@ const Banner = () => {
             </Link>
             <Link href="https://www.instagram.com/topbodenservice/">
               <AiFillInstagram
+                size={45}
+                className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
+              />
+            </Link>
+            <Link href="https://www.tiktok.com/@topbodenservice">
+              <FaTiktok
+                size={40}
+                className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
+              />
+            </Link>
+            <Link href="https://www.youtube.com/@topbodenservice">
+              <FaYoutube
                 size={45}
                 className="hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
