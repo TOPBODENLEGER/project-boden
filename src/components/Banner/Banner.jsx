@@ -122,12 +122,12 @@ const Banner = () => {
             >
               <IoLogoWhatsapp size={43} />
             </Link>
-            {/* <Link href="https://www.facebook.com">
+            <Link href="https://www.instagram.com/topbodenservice/">
               <AiFillInstagram
                 size={45}
                 className="hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
-            </Link> */}
+            </Link>
           </div>
         </motion.div>
       </div>

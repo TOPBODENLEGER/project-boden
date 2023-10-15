@@ -38,13 +38,19 @@ const Footer = () => {
         <div className="flex justify-center">
           <div className={styles.grid}>
             <div>TELEFON:</div>
-            <div>
+            <div className="flex">
               <a
                 href="tel:+4915227465638"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 <BsFillTelephoneFill className="mr-3" size={20} />
-                +49 1522 746 56 38
+                +49 1522 746 56 38;&nbsp;
+              </a>
+              <a
+                href="tel:+491604645544"
+                className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
+              >
+                +49 160 464 55 44
               </a>
             </div>
             <div>MAIL:</div>
@@ -71,12 +77,12 @@ const Footer = () => {
               >
                 <IoLogoWhatsapp size={30} />
               </Link>
-              {/* <Link href="https://www.instagram.com">
+              <Link href="https://www.instagram.com/topbodenservice/">
                 <AiFillInstagram
                   size={32}
                   className="hover:text-[#7acfdf] duration-200"
                 />
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
