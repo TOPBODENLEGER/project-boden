@@ -131,7 +131,7 @@ const Banner = () => {
             </Link>
             <Link href="https://www.tiktok.com/@topbodenservice">
               <FaTiktok
-                size={40}
+                size={37}
                 className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
             </Link>
