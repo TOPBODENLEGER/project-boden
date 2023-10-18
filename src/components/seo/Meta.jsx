@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const getTitle = (title) => `${title} TOP BODENSERVICE`;
+const getTitle = (title) => `${title}TOP BODENSERVICE`;
 
 const Meta = ({ title, description, children }) => {
   return (
