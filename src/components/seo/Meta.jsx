@@ -9,6 +9,7 @@ const Meta = ({ title, description, children }) => {
         <title>{getTitle(title)}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="sNILdc-iO3Pn8Cf2fLHG3rsJCe0DOHMwdc0fRyN0R_U" />
+        <meta name="google-site-verification" content="_CowYDKB7ja_wVemnK91hOpDSWvVZBpi2wEFOKuzt1U" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
