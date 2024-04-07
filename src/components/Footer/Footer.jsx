@@ -59,11 +59,11 @@ const Footer = () => {
             <div>MAIL:</div>
             <div>
               <Link
-                href="mailto:TOP-BODENSERVICE@GMAIL.COM"
+                href="mailto:TOPBODENSERVICE@GMAIL.COM"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 <GrMail className="mr-3" size={22} />
-                TOP-BODENSERVICE@GMAIL.COM
+                TOPBODENSERVICE@GMAIL.COM
               </Link>
             </div>
             <div custom={4}>FOLGEN UNS:</div>
