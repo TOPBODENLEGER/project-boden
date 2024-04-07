@@ -114,28 +114,39 @@ const Banner = () => {
             <Link
               href="https://t.me/+4915227465638"
               className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
+              aria-label="Telegramm"
             >
               <FaTelegram size={42} />
             </Link>
             <Link
               href="https://wa.me/+4915227465638"
               className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
+              aria-label="Whatsapp"
             >
               <IoLogoWhatsapp size={43} />
             </Link>
-            <Link href="https://www.instagram.com/topbodenservice/">
+            <Link
+              href="https://www.instagram.com/topbodenservice/"
+              aria-label="Instagram"
+            >
               <AiFillInstagram
                 size={45}
                 className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
             </Link>
-            <Link href="https://www.tiktok.com/@topbodenservice">
+            <Link
+              href="https://www.tiktok.com/@topbodenservice"
+              aria-label="TikTok"
+            >
               <FaTiktok
                 size={37}
                 className="mr-8 hover:text-[#A2ACD7] duration-200 text-[#64486B]"
               />
             </Link>
-            <Link href="https://www.youtube.com/@topbodenservice">
+            <Link
+              href="https://www.youtube.com/@topbodenservice"
+              aria-label="YouTube"
+            >
               <FaYoutube
                 size={45}
                 className="hover:text-[#A2ACD7] duration-200 text-[#64486B]"

@@ -11,7 +11,7 @@ import styles from "./MobileMenu.module.scss";
 
 const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
   return (
-    <>
+    <div id="al" aria-label="Menu">
       <Drawer onClose={handleMobileMenu} isOpen={isMobileMenu}>
         <DrawerOverlay />
         <DrawerContent>
@@ -60,7 +60,7 @@ const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-    </>
+    </div>
   );
 };
 
