@@ -2,6 +2,7 @@ import { createClient } from "contentful";
 import Slider from "@/components/Slider/Slider";
 import Banner from "@/components/Banner/Banner";
 import Company from "@/components/Company/Company";
+import Price from "@/components/Price/Price";
 import Service from "@/components/Service/Service";
 import Layout from "@/components/Layout/Layout";
 
@@ -33,6 +34,7 @@ export default function Home({ slider }) {
         <Service />
         <Company />
         <Slider items={slider} />
+        <Price />
       </Layout>
     </>
   );

@@ -35,7 +35,9 @@ const Header = ({ handleMobileMenu }) => {
                   <Link href="/#portfolio">Portfolio</Link>
                 </li>
                 <li>
-                  {" "}
+                  <Link href="/#price">Preis</Link>
+                </li>
+                <li>
                   <Link href="/#contact">Kontakt</Link>
                 </li>
               </ul>

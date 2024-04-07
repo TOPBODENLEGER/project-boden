@@ -9,6 +9,8 @@ import styles from "./Footer.module.scss";
 import Link from "next/link";
 
 const Footer = () => {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
   return (
     <div
       initial="hidden"
@@ -45,14 +47,14 @@ const Footer = () => {
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 <BsFillTelephoneFill className="mr-3" size={20} />
-                +49 1522 746 56 38;&nbsp;
+                +49 1522 746 56 38
               </a>
-              <a
+              {/* <a
                 href="tel:+491604645544"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 +49 160 464 55 44
-              </a>
+              </a> */}
             </div>
             <div>MAIL:</div>
             <div>
@@ -104,7 +106,7 @@ const Footer = () => {
             <Image src="/images/top_b.png" width={180} height={99} alt="logo" />
           </div>
           <div custom={5} className="m-2">
-            ©2023 TOP BODENSERVICE
+            ©{currentYear} TOP BODENSERVICE
           </div>
           <div custom={5}>
             <Link href="/impressum" className={`m-2 ${styles.link}`}>

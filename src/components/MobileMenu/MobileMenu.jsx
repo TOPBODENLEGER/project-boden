@@ -45,6 +45,11 @@ const MobileMenu = ({ handleMobileMenu, isMobileMenu }) => {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/#price" onClick={handleMobileMenu}>
+                      Preis
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/#contact" onClick={handleMobileMenu}>
                       Kontakt
                     </Link>
