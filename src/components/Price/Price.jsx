@@ -12,7 +12,8 @@ const Price = () => {
             <thead>
               <tr>
                 <th colspan="2">
-                  Parkett / Dielenboden schleifen und versiegeln
+                  Parkett / Dielenboden schleifen und versiegeln (inkl.
+                  Material)
                 </th>
               </tr>
             </thead>
