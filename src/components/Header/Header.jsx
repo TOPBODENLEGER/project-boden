@@ -53,6 +53,8 @@ const Header = ({ handleMobileMenu }) => {
           <button
             className="p-4 bg-[#0097B2] text-white cursor-pointer mr-3 rounded-lg hover:bg-white hover:text-[#0097B2] duration-200 hover:border-2 hover:border-[#0097B2] border-2 border-[#0097B2]"
             onClick={handleMobileMenu}
+            id="al"
+            aria-label="Menu"
           >
             <RxHamburgerMenu size={30} />
           </button>
