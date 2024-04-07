@@ -105,9 +105,9 @@ const Banner = () => {
         >
           <a href="tel:+4915227465638">
             <div
-              className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-[#51c4d8] duration-200 flex justify-center items-center text-white font-bold ${styles.buttonContact}`}
+              className={`w-[350px] h-[60px] rounded-[50px] bg-[#0097B2] hover:bg-white hover:text-[#0097B2] border-[#0097B2] border-2 duration-200 flex justify-center items-center text-white font-bold ${styles.buttonContact}`}
             >
-              CONTACT UNS
+              KONTAKT UNS
             </div>
           </a>
           <div className={styles.icons}>
