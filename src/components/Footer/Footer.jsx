@@ -71,28 +71,39 @@ const Footer = () => {
               <Link
                 href="https://t.me/+4915227465638"
                 className="mr-6 hover:text-[#7acfdf] duration-200"
+                aria-label="Telegramm"
               >
                 <FaTelegram size={30} />
               </Link>
               <Link
                 href="https://wa.me/+4915227465638"
                 className="mr-5 hover:text-[#7acfdf] duration-200"
+                aria-label="Whatsapp"
               >
                 <IoLogoWhatsapp size={30} />
               </Link>
-              <Link href="https://www.instagram.com/topbodenservice/">
+              <Link
+                href="https://www.instagram.com/topbodenservice/"
+                aria-label="Instagram"
+              >
                 <AiFillInstagram
                   size={32}
                   className="mr-5 hover:text-[#7acfdf] duration-200"
                 />
               </Link>
-              <Link href="https://www.tiktok.com/@topbodenservice">
+              <Link
+                href="https://www.tiktok.com/@topbodenservice"
+                aria-label="TikTok"
+              >
                 <FaTiktok
                   size={28}
                   className="mr-5 hover:text-[#7acfdf] duration-200"
                 />
               </Link>
-              <Link href="https://www.youtube.com/@topbodenservice">
+              <Link
+                href="https://www.youtube.com/@topbodenservice"
+                aria-label="YouTube"
+              >
                 <FaYoutube
                   size={30}
                   className="hover:text-[#7acfdf] duration-200"
