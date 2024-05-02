@@ -49,12 +49,12 @@ const Footer = () => {
                 <BsFillTelephoneFill className="mr-3" size={20} />
                 +49 1522 746 56 38;&nbsp;
               </a>
-              <a
+              {/* <a
                 href="tel:+491604645544"
                 className="flex justify-start items-center hover:text-[#7acfdf] duration-200"
               >
                 +49 160 464 55 44
-              </a>
+              </a> */}
             </div>
             <div>MAIL:</div>
             <div>
