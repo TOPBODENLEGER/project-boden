@@ -50,7 +50,7 @@ const Company = () => {
               className=" w-[100%] pl-[30%] pt-5 text-start"
             >
               TOP BODENSERVICE bietet rundum Service im Bereich Bodenverlegung
-              an. Alle Arbeiten werden profisional ausgeführt! <br />
+              an. Alle Arbeiten werden professionell ausgeführt! <br />
               <br />
               Diese Beinhaltet folgende Dienstleistungen:
               <br />- Verlegung neuer Böden (Parkett, Laminat, Vinyl)
@@ -114,7 +114,7 @@ const Company = () => {
               className=" w-[100%] pt-5 text-start px-7 pb-3"
             >
               TOP BODENSERVICE bietet rundum Service im Bereich Bodenverlegung
-              an. Alle Arbeiten werden profisional ausgeführt! <br />
+              an. Alle Arbeiten werden professionell ausgeführt! <br />
               <br />
               Diese Beinhaltet folgende Dienstleistungen:
               <br />- Verlegung neuer Böden (Parkett, Laminat, Vinyl)

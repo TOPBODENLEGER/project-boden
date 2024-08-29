@@ -96,7 +96,7 @@ const Banner = () => {
           variants={textAnimation}
           className={`mb-[30px] ${styles.p}`}
         >
-          Alle Arbeiten werden profisional ausgeführt!
+         Alle Arbeiten werden professionell ausgeführt!
         </motion.p>
         <motion.div
           custom={3.5}
