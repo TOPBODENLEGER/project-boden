@@ -21,25 +21,25 @@ const Price = () => {
               <tr>
                 <td className="w-[60%]">Lack</td>
                 <td>
-                  25 &euro; pro m<sup>2</sup>
+                  22 &euro; pro m<sup>2</sup>
                 </td>
               </tr>
               <tr>
                 <td className="w-[60%]">2k Lack</td>
                 <td>
-                  35 &euro; pro m<sup>2</sup>
+                  28 &euro; pro m<sup>2</sup>
                 </td>
               </tr>
               <tr>
                 <td className="w-[60%]">Öl</td>
                 <td>
-                  28 &euro; pro m<sup>2</sup>
+                  25 &euro; pro m<sup>2</sup>
                 </td>
               </tr>
               <tr>
                 <td className="w-[60%]">Hartwachsöl</td>
                 <td>
-                  30 &euro; pro m<sup>2</sup>
+                  25 &euro; pro m<sup>2</sup>
                 </td>
               </tr>
               <tr>
@@ -51,7 +51,7 @@ const Price = () => {
               <tr>
                 <td className="w-[60%]">Parkett/ Vinyl verlegen</td>
                 <td>
-                  ab 20 &euro; pro m<sup>2</sup>
+                  ab 15 &euro; pro m<sup>2</sup>
                 </td>
               </tr>
               <tr>
@@ -73,7 +73,7 @@ const Price = () => {
               </tr>
               <tr>
                 <td className="w-[60%]">Reparaturarbeit</td>
-                <td>45 &euro; pro Std.</td>
+                <td>40 &euro; pro Std.</td>
               </tr>
               <tr>
                 <td colspan="2" className="text-center font-bold">
