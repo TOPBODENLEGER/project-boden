@@ -54,8 +54,8 @@ const Company = () => {
               <br />
               Diese Beinhaltet folgende Dienstleistungen:
               <br />- Verlegung neuer Böden (Parkett, Laminat, Vinyl)
-              <br />- Professionelles Abschleifen von Parkett und Dielen
-              Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl
+              <br />- Professionelles Abschleifen von Parkett und Dielen,
+              Versiegelung mit umweltfreundlichen Lacken auf Wasserbasis, Öl
               oder Hartwachsöl.
               <br />- Renovierung alter Holzböden (abschleifen, ölen,
               versiegeln)
@@ -118,8 +118,8 @@ const Company = () => {
               <br />
               Diese Beinhaltet folgende Dienstleistungen:
               <br />- Verlegung neuer Böden (Parkett, Laminat, Vinyl)
-              <br />- Professionelles Abschleifen von Parkett und Dielen
-              Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl
+              <br />- Professionelles Abschleifen von Parkett und Dielen,
+              Versiegelung mit umweltfreundlichen Lacken auf Wasserbasis, Öl
               oder Hartwachsöl.
               <br />- Renovierung alter Holzböden (abschleifen, ölen,
               versiegeln)

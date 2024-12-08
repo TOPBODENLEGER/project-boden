@@ -4,7 +4,7 @@ export default function Datenschutz() {
   return (
     <Layout
       title="Datenschutz | "
-      description="Verlegung neuer Böden (Parkett, Laminat, Vinyl), Professionelles Abschleifen von Parkett und Dielen Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl oder Hartwachsöl. Renovierung alter Holzböden (abschleifen, ölen, versiegeln), Restaurierung von Holztreppen"
+      description="Verlegung neuer Böden (Parkett, Laminat, Vinyl), Professionelles Abschleifen von Parkett und Dielen, Versiegelung mit umweltfreundlichen Lacken auf Wasserbasis, Öl oder Hartwachsöl. Renovierung alter Holzböden (abschleifen, ölen, versiegeln), Restaurierung von Holztreppen"
     >
       <div className="flex justify-center my-10 px-2">
         <div className="max-w-[1000px] min-w-[280px]">

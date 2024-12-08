@@ -60,7 +60,7 @@ const Banner = () => {
               className="mr-2"
               alt="img"
             />
-            <p className={styles.p}>dringend</p>
+            <p className={styles.p}>hochwertig</p>
           </motion.li>
           <motion.li
             custom={2}

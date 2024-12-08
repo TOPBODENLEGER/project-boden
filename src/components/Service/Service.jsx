@@ -42,8 +42,8 @@ const Service = () => {
           </div>
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
+              Professionelles Abschleifen von Parkett und Dielen, Versiegelung
+              mit umweltfreundlichen Lacken auf Wasserbasis, Öl oder
               Hartwachsöl.
             </div>
           </div>
@@ -142,8 +142,8 @@ const Service = () => {
           </div>
           <div className={styles.hexagon}>
             <div className={styles.item}>
-              Professionelles Abschleifen von Parkett und Dielen Versiegelung
-              mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
+              Professionelles Abschleifen von Parkett und Dielen, Versiegelung
+              mit umweltfreundlichen Lacken auf Wasserbasis, Öl oder
               Hartwachsöl.
             </div>
           </div>
@@ -271,8 +271,8 @@ const Service = () => {
             </div>
             <div className={styles.hexagonMobile}>
               <div className={styles.itemMobile}>
-                Professionelles Abschleifen von Parkett und Dielen Versiegelung
-                mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
+                Professionelles Abschleifen von Parkett und Dielen, Versiegelung
+                mit umweltfreundlichen Lacken auf Wasserbasis, Öl oder
                 Hartwachsöl.
               </div>
             </div>
@@ -429,8 +429,8 @@ const Service = () => {
             </div>
             <div className={styles.hexagonMobile2}>
               <div className={styles.itemMobile2}>
-                Professionelles Abschleifen von Parkett und Dielen Versiegelung
-                mit umweltfreundlichem lacken auf Wasserbasis, Öl oder
+                Professionelles Abschleifen von Parkett und Dielen, Versiegelung
+                mit umweltfreundlichen Lacken auf Wasserbasis, Öl oder
                 Hartwachsöl.
               </div>
             </div>

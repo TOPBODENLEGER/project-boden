@@ -28,7 +28,7 @@ export default function Home({ slider }) {
     <>
       <Layout
         title="Parkett schleifen Köln. Parkett verlegen. Parkett Ölen | "
-        description="Parkett schleifen. Verlegung neuer Böden (Parkett, Laminat, Vinyl), Professionelles Abschleifen von Parkett und Dielen Versiegelung mit umweltfreundlichem lacken auf Wasserbasis, Öl oder Hartwachsöl. Renovierung alter Holzböden (abschleifen, ölen, versiegeln), Restaurierung von Holztreppen. Köln, Bergisch Gladbach, Bonn, Düsseldorf"
+        description="Parkett schleifen. Verlegung neuer Böden (Parkett, Laminat, Vinyl), Professionelles Abschleifen von Parkett und Dielen, Versiegelung mit umweltfreundlichem Lacken auf Wasserbasis, Öl oder Hartwachsöl. Renovierung alter Holzböden (abschleifen, ölen, versiegeln), Restaurierung von Holztreppen. Köln, Bergisch Gladbach, Bonn, Düsseldorf"
       >
         <Banner />
         <Service />
